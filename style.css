@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@media only screen and (min-width: 376px) {
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(212, 45%, 89%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Outfit", "sans-serif";
+}
+.content-box {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 15px 15px;
+    border-radius: 20px;
+    height: 550px;
+}
+
+
+.qrcode {
+    position: relative;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.text {
+    position: absolute;
+    padding: 0px 20px;
+}
+h2 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+
+p{ 
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+
+
+.attribution a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(103, 181, 143);
+    font-style: italic;
+}
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: hsl(212, 45%, 89%);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-family: "Outfit", "sans-serif";
+    }
+    .content-box {
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        background-color:  hsl(0, 0%, 100%);
+        padding: 15px 15px;
+        border-radius: 20px;
+        height: 550px;
+    }
+    
+    
+    .qrcode {
+        position: relative;
+    }
+    
+    img {
+        border-radius: 15px;
+    }
+    
+    .text {
+        position: absolute;
+        padding: 0px 20px;
+    }
+    h2 {
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+    }
+    
+    
+    p{ 
+        font-size: 15px;
+        color: hsl(220, 15%, 55%);
+        text-align: center;
+    }
+
+    .attribution a {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(103, 181, 143);
+        font-style: italic;
+    }
+    }
+
